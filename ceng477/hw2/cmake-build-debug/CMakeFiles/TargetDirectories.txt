@@ -1,0 +1,3 @@
+/home/deniz/Downloads/fall 2020/ceng477/hw2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/deniz/Downloads/fall 2020/ceng477/hw2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/deniz/Downloads/fall 2020/ceng477/hw2/cmake-build-debug/CMakeFiles/hw2.dir

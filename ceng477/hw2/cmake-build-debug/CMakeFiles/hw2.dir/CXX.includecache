@@ -1,0 +1,394 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../jpeg.h
+
+../matrix.h
+
+../parser.h
+string
+-
+vector
+-
+
+../ppm.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/camera.cpp
+camera.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/camera.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/camera.h
+ray.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/ray.h
+vector2f.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/vector2f.h
+vector3f.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/vector3f.h
+vector4f.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/vector4f.h
+string
+-
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/ctpl_stl.h
+functional
+-
+thread
+-
+atomic
+-
+vector
+-
+memory
+-
+exception
+-
+future
+-
+mutex
+-
+queue
+-
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/hit_record.h
+vector3f.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/vector3f.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/image.cpp
+image.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/image.h
+ppm.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/ppm.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/image.h
+vector3f.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/vector3f.h
+memory
+-
+string
+-
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/integrator.cpp
+integrator.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/integrator.h
+image.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/image.h
+ctpl_stl.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/ctpl_stl.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/integrator.h
+scene.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/scene.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/jpeg.cpp
+cstdio
+-
+cstdlib
+-
+stdexcept
+-
+jpeglib.h
+-
+jpeg.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/jpeg.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/jpeg.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/main.cpp
+parser.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/parser.h
+integrator.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/integrator.h
+timer.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/timer.h
+iostream
+-
+iomanip
+-
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/material.cpp
+material.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/material.h
+vector3f.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/vector3f.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/material.h
+hit_record.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/hit_record.h
+vector3f.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/vector3f.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/matrix.cpp
+stdexcept
+-
+matrix.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/matrix.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/matrix.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/mesh.cpp
+mesh.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/mesh.h
+hit_record.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/hit_record.h
+ray.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/ray.h
+vector3f.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/vector3f.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/mesh.h
+triangle.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/triangle.h
+vector
+-
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/parser.cpp
+parser.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/parser.h
+tinyxml2.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/tinyxml2.h
+sstream
+-
+stdexcept
+-
+cstring
+-
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/parser.h
+string
+-
+vector
+-
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/point_light.cpp
+point_light.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/point_light.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/point_light.h
+vector3f.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/vector3f.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/ppm.cpp
+ppm.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/ppm.h
+stdexcept
+-
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/ppm.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/ray.cpp
+ray.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/ray.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/ray.h
+vector3f.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/vector3f.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/rotation.cpp
+rotation.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/rotation.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/rotation.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/sample_main_files/main_for_jpeg_to_ppm.cpp
+iostream
+-
+iomanip
+-
+parser.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/sample_main_files/parser.h
+ppm.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/sample_main_files/ppm.h
+jpeg.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/sample_main_files/jpeg.h
+matrix.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/sample_main_files/matrix.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/sample_main_files/main_for_matrix_inversion.cpp
+iostream
+-
+iomanip
+-
+parser.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/sample_main_files/parser.h
+ppm.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/sample_main_files/ppm.h
+jpeg.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/sample_main_files/jpeg.h
+matrix.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/sample_main_files/matrix.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/sample_main_files/main_for_write_jpeg_file.cpp
+iostream
+-
+iomanip
+-
+parser.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/sample_main_files/parser.h
+ppm.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/sample_main_files/ppm.h
+jpeg.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/sample_main_files/jpeg.h
+matrix.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/sample_main_files/matrix.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/scaling.cpp
+scaling.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/scaling.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/scaling.h
+matrix.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/matrix.h
+vector3f.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/vector3f.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/scene.cpp
+scene.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/scene.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/scene.h
+camera.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/camera.h
+material.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/material.h
+mesh.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/mesh.h
+parser.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/parser.h
+point_light.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/point_light.h
+ray.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/ray.h
+sphere.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/sphere.h
+vector2f.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/vector2f.h
+vector3f.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/vector3f.h
+translation.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/translation.h
+scaling.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/scaling.h
+rotation.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/rotation.h
+texture.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/texture.h
+vector
+-
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/sphere.cpp
+sphere.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/sphere.h
+hit_record.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/hit_record.h
+ray.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/ray.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/sphere.h
+vector3f.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/vector3f.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/texture.cpp
+texture.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/texture.h
+string
+-
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/texture.h
+string
+-
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/timer.cpp
+timer.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/timer.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/timer.h
+chrono
+-
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/tinyxml2.cpp
+tinyxml2.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/tinyxml2.h
+new
+-
+stddef.h
+-
+stdarg.h
+-
+cstddef
+-
+cstdarg
+-
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/tinyxml2.h
+ctype.h
+-
+limits.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stddef.h
+-
+cctype
+-
+climits
+-
+cstdio
+-
+cstdlib
+-
+cstring
+-
+stdint.h
+-
+android/log.h
+-
+assert.h
+-
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/translation.cpp
+translation.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/translation.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/translation.h
+matrix.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/matrix.h
+vector3f.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/vector3f.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/triangle.cpp
+hit_record.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/hit_record.h
+triangle.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/triangle.h
+ray.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/ray.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/triangle.h
+triangular.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/triangular.h
+vector3f.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/vector3f.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/triangular.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/utility.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/vector2f.h
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/vector3f.h
+utility.h
+/home/deniz/Downloads/fall 2020/ceng477/hw2/utility.h
+cmath
+-
+
+/home/deniz/Downloads/fall 2020/ceng477/hw2/vector4f.h
+

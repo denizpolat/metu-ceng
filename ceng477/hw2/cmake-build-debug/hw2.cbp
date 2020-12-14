@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="hw2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/deniz/Downloads/fall 2020/ceng477/hw2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/deniz/Downloads/fall\ 2020/ceng477/hw2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/deniz/Downloads/fall\ 2020/ceng477/hw2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/deniz/Downloads/fall\ 2020/ceng477/hw2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/deniz/Downloads/fall\ 2020/ceng477/hw2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/deniz/Downloads/fall 2020/ceng477/hw2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/deniz/Downloads/fall\ 2020/ceng477/hw2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/deniz/Downloads/fall\ 2020/ceng477/hw2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/deniz/Downloads/fall\ 2020/ceng477/hw2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/deniz/Downloads/fall\ 2020/ceng477/hw2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/deniz/Downloads/fall 2020/ceng477/hw2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/deniz/Downloads/fall\ 2020/ceng477/hw2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/deniz/Downloads/fall\ 2020/ceng477/hw2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/deniz/Downloads/fall\ 2020/ceng477/hw2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/deniz/Downloads/fall\ 2020/ceng477/hw2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hw2">
+				<Option output="/home/deniz/Downloads/fall 2020/ceng477/hw2/cmake-build-debug/hw2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/deniz/Downloads/fall 2020/ceng477/hw2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/deniz/Downloads/fall 2020/ceng477/hw2/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/deniz/Downloads/fall\ 2020/ceng477/hw2/cmake-build-debug/Makefile&quot;  VERBOSE=1 hw2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/deniz/Downloads/fall\ 2020/ceng477/hw2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/deniz/Downloads/fall\ 2020/ceng477/hw2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/deniz/Downloads/fall\ 2020/ceng477/hw2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hw2/fast">
+				<Option output="/home/deniz/Downloads/fall 2020/ceng477/hw2/cmake-build-debug/hw2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/deniz/Downloads/fall 2020/ceng477/hw2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/deniz/Downloads/fall 2020/ceng477/hw2/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/deniz/Downloads/fall\ 2020/ceng477/hw2/cmake-build-debug/Makefile&quot;  VERBOSE=1 hw2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/deniz/Downloads/fall\ 2020/ceng477/hw2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/deniz/Downloads/fall\ 2020/ceng477/hw2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/deniz/Downloads/fall\ 2020/ceng477/hw2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/Makefile">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/camera.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/camera.h">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/ctpl_stl.h">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/hit_record.h">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/image.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/image.h">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/integrator.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/integrator.h">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/jpeg.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/jpeg.h">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/main.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/material.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/material.h">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/matrix.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/matrix.h">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/mesh.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/mesh.h">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/parser.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/parser.h">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/point_light.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/point_light.h">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/ppm.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/ppm.h">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/ray.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/ray.h">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/rotation.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/rotation.h">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/sample_main_files/main_for_jpeg_to_ppm.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/sample_main_files/main_for_matrix_inversion.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/sample_main_files/main_for_write_jpeg_file.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/scaling.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/scaling.h">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/scene.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/scene.h">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/sphere.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/sphere.h">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/texture.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/texture.h">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/timer.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/timer.h">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/tinyxml2.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/tinyxml2.h">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/transformation.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/transformation.h">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/translation.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/translation.h">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/triangle.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/triangle.h">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/triangular.h">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/utility.h">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/vector2f.h">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/vector3f.h">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/vector4f.h">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/home/deniz/Downloads/fall 2020/ceng477/hw2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
