@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Code_Template.dir/parser.cpp.o CMakeFiles/Code_Template.dir/ppm.cpp.o CMakeFiles/Code_Template.dir/raytracer.cpp.o CMakeFiles/Code_Template.dir/tinyxml2.cpp.o  -o Code_Template 
