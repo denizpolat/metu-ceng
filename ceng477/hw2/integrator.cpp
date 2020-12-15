@@ -199,9 +199,9 @@ namespace fst
 
                 math::Vector4f currPos = math::Vector4f(curr.m_center.x, curr.m_center.y, curr.m_center.z, 1);
                 math::Vector4f newPos = final.multiply(currPos);
-                curr.m_center.x = newPos.x;
-                curr.m_center.y = newPos.y;
-                curr.m_center.z = newPos.z;
+                m_scene.spheres[i].m_center.x = newPos.x;
+                m_scene.spheres[i].m_center.y = newPos.y;
+                m_scene.spheres[i].m_center.z = newPos.z;
 
             }
 
@@ -264,11 +264,13 @@ namespace fst
 
                 Triangle currTri = curr.m_triangles[t];
 
-                curr.m_triangles[t] = transformOneTriangle(final, currTri);
+                m_scene.meshes[i].m_triangles[t] = transformOneTriangle(final, currTri);
 
+                double d = 5;
 
             }
 
+            double d = 3;
 
         }
     }
