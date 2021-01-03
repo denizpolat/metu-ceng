@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/deniz/Downloads/ceng477/Code Template/parser.h
+string
+-
+vector
+-
+
+/home/deniz/Downloads/ceng477/Code Template/ppm.h
+
+/home/deniz/Downloads/ceng477/Code Template/raytracer.cpp
+iostream
+-
+parser.h
+/home/deniz/Downloads/ceng477/Code Template/parser.h
+ppm.h
+/home/deniz/Downloads/ceng477/Code Template/ppm.h
+raytracer.h
+/home/deniz/Downloads/ceng477/Code Template/raytracer.h
+math.h
+-
+
+/home/deniz/Downloads/ceng477/Code Template/raytracer.h
+

@@ -1,0 +1,3 @@
+/home/deniz/Downloads/ceng477/Code Template/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/deniz/Downloads/ceng477/Code Template/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/deniz/Downloads/ceng477/Code Template/cmake-build-debug/CMakeFiles/Code_Template.dir
