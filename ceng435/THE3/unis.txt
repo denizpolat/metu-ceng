@@ -1,0 +1,20 @@
+unsam.edu.ar (104.26.11.16)
+uccor.edu.ar (104.26.5.177)
+unq.edu.ar (207.248.74.50)
+uncuyo.edu.ar (179.0.132.52)
+
+
+
+MALAYSIA:
+unreached:
+um.edu.my (52.187.23.205)
+utm.my (161.139.21.66)
+utar.edu.my (121.123.29.55)
+uitm.edu.my (202.58.80.95),
+ utp.edu.my (203.135.191.100)
+ uniten.edu.my (103.227.140.64)
+ imu.edu.my (14.102.151.82),
+
+reached:
+upm.edu.my (211.25.98.234)
+ucsiuniversity.edu.my (104.27.186.101)

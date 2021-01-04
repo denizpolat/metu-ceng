@@ -1,0 +1,61 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{graphicx} % better \includegraphics
+\usepackage{enumerate}
+\usepackage{kantlipsum} % placeholder text
+\usepackage{csquotes} % \enquote for automatic quotations
+\usepackage{geometry}
+\geometry{
+    a4paper,
+    top=20mm,
+}
+
+% you can bring in additional packages if you need to
+
+\begin{document}
+
+\section*{Student Information}
+% Full Name: john doe \\
+% ID Number: e123456
+Full Name: \\
+ID Number:
+
+% section example
+
+\section{Example Section}%
+\label{sec:example_section}
+
+\kant[42]
+
+% subsection example
+
+\subsection{Example Subsection}%
+\label{sub:example_subsection}
+
+Use this for individual answers;
+
+\subsection{Question N}%
+\label{sub:question_n}
+
+\kant[29-30]
+
+% including figures
+% example:
+\begin{figure}[htbp] % placement specifiers, https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions#Figures
+    % 50% of the text width, you can play around with that
+    % use the snippet tool or shift+Printscreen on Ubuntu instead of full desktop screenshot
+    \centerline{\includegraphics[width=0.5\textwidth]{720x480.png}}
+    \caption{A caption that summarizes the figure}%
+    \label{fig:example_figure} %
+\end{figure}
+
+You can then reference your figure like so; the answer is derived from Figure~\ref{fig:example_figure}. The reference will update itself automatically to always refer to the correct figure. Note that you still have to manually write \enquote{Figure}. Anyway here is more placeholder text;
+
+\kant[7]
+
+% notice the correct positioning of the figure
+
+% good luck, have fun
+\end{document}

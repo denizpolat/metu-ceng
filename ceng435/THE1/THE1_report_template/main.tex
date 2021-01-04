@@ -1,0 +1,63 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{graphicx} % better \includegraphics
+\usepackage{enumerate}
+\usepackage{lipsum} % placeholder text
+\usepackage{csquotes} % \enquote for automatic quotations
+
+% You can bring in additional packages if you need to
+
+\topmargin=-2cm
+
+\begin{document}
+
+\section*{Student Information} 
+% Write your full name and id number between the colon and newline
+% Put one empty space character after colon and before newline
+Full Name: \\
+Id Number: 
+% Write your answers below the section tags
+
+\section*{HTTP \& DNS (70 Points)}
+
+Type your answers under the appropriate subsections.
+
+\subsection*{1. (8 Points)}
+
+\subsection*{2. (10 Points)}
+
+\subsection*{2. (Bonus) (10 Bonus Points)}
+
+\subsection*{3. (15 Points)}
+
+\subsection*{4. (15 Points)}
+
+\subsection*{5a. (7 Points)}
+
+\subsection*{5b. (15 Points)}
+
+% Including figures
+% example:
+\begin{figure}[htbp] % placement specifiers, https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions#Figures
+    % 50% of the text width, you can play around with that 
+    \centerline{\includegraphics[width=0.5\textwidth]{720x480.png}} 
+    \caption{A caption that summarizes the figure}%
+    \label{fig:example_figure} % 
+\end{figure}
+
+You can then reference your figure like so; the answer is derived from Figure~\ref{fig:example_figure}. The reference will update itself automatically to always refer to the correct figure. Note that you still have to manually write \enquote{Figure}.
+
+
+\section*{HTTPS \& TLS (30 Points)}
+
+\subsection*{1. (10 Points)}
+
+\subsection*{2. (10 Points)}
+
+\subsection*{3. (10 Points)}
+
+% Please do not submit the tex file, pdf file is enough.
+% Hope you have fun :) 
+\end{document}
