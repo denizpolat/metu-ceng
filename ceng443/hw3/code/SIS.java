@@ -116,6 +116,7 @@ public class SIS {
         gradeToLetter.put(13., "DC");
         gradeToLetter.put(12., "DD");
         gradeToLetter.put(11., "FD");
+        gradeToLetter.put(10., "FD");
 
 
         List<Course> coursesOfStd = this.studentList.stream().filter(std -> std.getStudentID() == studentID)
@@ -124,16 +125,17 @@ public class SIS {
 
         Collection<Optional<Course>> uniqueCourses = coursesOfStd.stream().collect(Collectors.groupingBy(Course::getCourseCode, Collectors.maxBy(Comparator.comparingInt(Course::getYear)))).values();
 
-        double totalGrade = uniqueCourses.stream().mapToDouble(c -> c.get().getCredit() * letterToWeight.getOrDefault(gradeToLetter.getOrDefault(Math.floor(getGrade(studentID, c.get().getCourseCode(), c.get().getYear()) / 5.), "FF"), 0.)).sum();
+        double totalGrade = uniqueCourses.stream().mapToDouble(c -> c.get().getCredit() * letterToWeight.getOrDefault(gradeToLetter.getOrDefault(Math.floor(Math.round(getGrade(studentID, c.get().getCourseCode(), c.get().getYear())) / 5.), "FF"), 0.)).sum();
         int totalCredit = uniqueCourses.stream().mapToInt(c -> c.get().getCredit()).sum();
 
         Map<Integer, List<Course>> gradesMap = coursesOfStd.stream().collect(Collectors.groupingBy(Course::getYear, TreeMap::new, Collectors.toList()));
                 gradesMap.forEach((year, courses) -> {
                     System.out.println(year);
                     courses.stream().sorted(Comparator.comparingInt(Course::getCourseCode)).map(Course::getCourseCode).distinct().forEach(crs ->
-                        System.out.println(crs + " " + gradeToLetter.getOrDefault(Math.floor(getGrade(studentID, crs, year) / 5.), "FF")));
+                        System.out.println(crs + " " + gradeToLetter.getOrDefault(Math.floor(Math.round(getGrade(studentID, crs, year)) / 5.), "FF")));
                 });
-        System.out.println("CGPA: " + totalGrade/totalCredit);
+        System.out.printf(Locale.US, "CGPA: %.2f%n",totalGrade/totalCredit);
+        //System.out.println("CGPA: " + totalGrade/totalCredit);
     }
 
     public void findCourse(int courseCode){
