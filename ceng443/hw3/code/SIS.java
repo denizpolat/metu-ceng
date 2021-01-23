@@ -155,6 +155,9 @@ public class SIS {
                 .anyMatch(c -> c.getCourseCode() == courseCode && c.getYear() == year)).map(Student::getStudentID)
                 .distinct().map(s -> getGrade(s, courseCode, year)).collect(Collectors.groupingBy(e->Math.floor(e/10.0), Collectors.counting()));
 
+        // if there exists a grade = 100 so a group with key 10 is created, add this value to grades.get(9)
+        grades.put(9., grades.getOrDefault(9., 0L) + grades.getOrDefault(10., 0L));
+        
         IntStream.range(0, 10).forEach(key -> System.out.println(key*10 + "-" + (key+1)*10 + " " + grades.getOrDefault((double) key, 0L)));
 
 
