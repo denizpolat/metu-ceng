@@ -1,0 +1,1107 @@
+
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A
+    FROM Sample
+    GROUP BY A
+    HAVING COUNT(DISTINCT(B)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT C
+    FROM Sample
+    GROUP BY C
+    HAVING COUNT(DISTINCT(D)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT D
+    FROM Sample
+    GROUP BY D
+    HAVING COUNT(DISTINCT(C)) != 1
+    );
+
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT F
+    FROM Sample
+    GROUP BY F
+    HAVING COUNT(DISTINCT(G)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT G
+    FROM Sample
+    GROUP BY G
+    HAVING COUNT(DISTINCT(F)) != 1
+    );
+
+---
+
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,C
+    FROM Sample
+    GROUP BY A,C
+    HAVING COUNT(DISTINCT(B,D)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,D
+    FROM Sample
+    GROUP BY A,D
+    HAVING COUNT(DISTINCT(B,C)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,E
+    FROM Sample
+    GROUP BY A,E
+    HAVING COUNT(DISTINCT(B)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,F
+    FROM Sample
+    GROUP BY A,F
+    HAVING COUNT(DISTINCT(B,G)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,G
+    FROM Sample
+    GROUP BY A,G
+    HAVING COUNT(DISTINCT(B,F)) != 1
+    );
+
+
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,C
+    FROM Sample
+    GROUP BY B,C
+    HAVING COUNT(DISTINCT(A,D)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,D
+    FROM Sample
+    GROUP BY B,D
+    HAVING COUNT(DISTINCT(A,C)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,E
+    FROM Sample
+    GROUP BY B,E
+    HAVING COUNT(DISTINCT(A)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,F
+    FROM Sample
+    GROUP BY B,F
+    HAVING COUNT(DISTINCT(A,G)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,G
+    FROM Sample
+    GROUP BY B,G
+    HAVING COUNT(DISTINCT(A,F)) != 1
+    );
+
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT C,E
+    FROM Sample
+    GROUP BY C,E
+    HAVING COUNT(DISTINCT(D)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT C,F
+    FROM Sample
+    GROUP BY C,F
+    HAVING COUNT(DISTINCT(D,G)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT C,G
+    FROM Sample
+    GROUP BY C,G
+    HAVING COUNT(DISTINCT(D,F)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT D,E
+    FROM Sample
+    GROUP BY D,E
+    HAVING COUNT(DISTINCT(C)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT D,F
+    FROM Sample
+    GROUP BY D,F
+    HAVING COUNT(DISTINCT(C,G)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT D,G
+    FROM Sample
+    GROUP BY D,G
+    HAVING COUNT(DISTINCT(C,F)) != 1
+    );
+
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT E,F
+    FROM Sample
+    GROUP BY E,F
+    HAVING COUNT(DISTINCT(G)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT E,G
+    FROM Sample
+    GROUP BY E,G
+    HAVING COUNT(DISTINCT(F)) != 1
+    );
+
+
+
+
+-------------------
+
+
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,B,C
+    FROM Sample
+    GROUP BY A,B,C
+    HAVING COUNT(DISTINCT(D)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,B,D
+    FROM Sample
+    GROUP BY A,B,D
+    HAVING COUNT(DISTINCT(C)) != 1
+    );
+
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,B,F
+    FROM Sample
+    GROUP BY A,B,F
+    HAVING COUNT(DISTINCT(G)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,B,G
+    FROM Sample
+    GROUP BY A,B,G
+    HAVING COUNT(DISTINCT(F)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,C,D
+    FROM Sample
+    GROUP BY A,C,D
+    HAVING COUNT(DISTINCT(B)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,C,E
+    FROM Sample
+    GROUP BY A,C,E
+    HAVING COUNT(DISTINCT(B,D)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,C,F
+    FROM Sample
+    GROUP BY A,C,F
+    HAVING COUNT(DISTINCT(B,D,E,G)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,C,G
+    FROM Sample
+    GROUP BY A,C,G
+    HAVING COUNT(DISTINCT(B,D,E,F)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,D,E
+    FROM Sample
+    GROUP BY A,D,E
+    HAVING COUNT(DISTINCT(B,C)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,D,F
+    FROM Sample
+    GROUP BY A,D,F
+    HAVING COUNT(DISTINCT(B,C,E,G)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,D,G
+    FROM Sample
+    GROUP BY A,D,G
+    HAVING COUNT(DISTINCT(B,C,E,F)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,E,F
+    FROM Sample
+    GROUP BY A,E,F
+    HAVING COUNT(DISTINCT(B,G)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,E,G
+    FROM Sample
+    GROUP BY A,E,G
+    HAVING COUNT(DISTINCT(B,F)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,F,G
+    FROM Sample
+    GROUP BY A,F,G
+    HAVING COUNT(DISTINCT(B)) != 1
+    );
+
+
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,C,D
+    FROM Sample
+    GROUP BY B,C,D
+    HAVING COUNT(DISTINCT(A)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,C,E
+    FROM Sample
+    GROUP BY B,C,E
+    HAVING COUNT(DISTINCT(A,D)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,C,F
+    FROM Sample
+    GROUP BY B,C,F
+    HAVING COUNT(DISTINCT(A,D,E,G)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,C,G
+    FROM Sample
+    GROUP BY B,C,G
+    HAVING COUNT(DISTINCT(A,D,E,F)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,D,E
+    FROM Sample
+    GROUP BY B,D,E
+    HAVING COUNT(DISTINCT(A,C)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,D,F
+    FROM Sample
+    GROUP BY B,D,F
+    HAVING COUNT(DISTINCT(A,C,E,G)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,D,G
+    FROM Sample
+    GROUP BY B,D,G
+    HAVING COUNT(DISTINCT(A,C,E,F)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,E,F
+    FROM Sample
+    GROUP BY B,E,F
+    HAVING COUNT(DISTINCT(A,G)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,E,G
+    FROM Sample
+    GROUP BY B,E,G
+    HAVING COUNT(DISTINCT(A,F)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,F,G
+    FROM Sample
+    GROUP BY B,F,G
+    HAVING COUNT(DISTINCT(A)) != 1
+    );
+
+
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT C,D,F
+    FROM Sample
+    GROUP BY C,D,F
+    HAVING COUNT(DISTINCT(G)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT C,D,G
+    FROM Sample
+    GROUP BY C,D,G
+    HAVING COUNT(DISTINCT(F)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT C,E,F
+    FROM Sample
+    GROUP BY C,E,F
+    HAVING COUNT(DISTINCT(D,G)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT C,E,G
+    FROM Sample
+    GROUP BY C,E,G
+    HAVING COUNT(DISTINCT(D,F)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT C,F,G
+    FROM Sample
+    GROUP BY C,F,G
+    HAVING COUNT(DISTINCT(D)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT D,E,F
+    FROM Sample
+    GROUP BY D,E,F
+    HAVING COUNT(DISTINCT(C,G)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT D,E,G
+    FROM Sample
+    GROUP BY D,E,G
+    HAVING COUNT(DISTINCT(C,F)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT D,F,G
+    FROM Sample
+    GROUP BY D,F,G
+    HAVING COUNT(DISTINCT(C)) != 1
+    );
+
+
+
+-------
+
+
+
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,B,C,E
+    FROM Sample
+    GROUP BY A,B,C,E
+    HAVING COUNT(DISTINCT(D)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,B,C,F
+    FROM Sample
+    GROUP BY A,B,C,F
+    HAVING COUNT(DISTINCT(D,E,G)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,B,C,G
+    FROM Sample
+    GROUP BY A,B,C,G
+    HAVING COUNT(DISTINCT(D,E,F)) != 1
+    );
+
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,B,D,E
+    FROM Sample
+    GROUP BY A,B,D,E
+    HAVING COUNT(DISTINCT(C)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,B,D,F
+    FROM Sample
+    GROUP BY A,B,D,F
+    HAVING COUNT(DISTINCT(C,E,G)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,B,D,G
+    FROM Sample
+    GROUP BY A,B,D,G
+    HAVING COUNT(DISTINCT(C,E,F)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,B,E,F
+    FROM Sample
+    GROUP BY A,B,E,F
+    HAVING COUNT(DISTINCT(G)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,B,E,G
+    FROM Sample
+    GROUP BY A,B,E,G
+    HAVING COUNT(DISTINCT(F)) != 1
+    );
+
+
+
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,C,D,E
+    FROM Sample
+    GROUP BY A,C,D,E
+    HAVING COUNT(DISTINCT(B)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,C,D,F
+    FROM Sample
+    GROUP BY A,C,D,F
+    HAVING COUNT(DISTINCT(B,E,G)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,C,D,G
+    FROM Sample
+    GROUP BY A,C,D,G
+    HAVING COUNT(DISTINCT(B,E,F)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,C,E,F
+    FROM Sample
+    GROUP BY A,C,E,F
+    HAVING COUNT(DISTINCT(B,D,G)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,C,E,G
+    FROM Sample
+    GROUP BY A,C,E,G
+    HAVING COUNT(DISTINCT(B,D,F)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,C,F,G
+    FROM Sample
+    GROUP BY A,C,F,G
+    HAVING COUNT(DISTINCT(B,D,E)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,D,E,F
+    FROM Sample
+    GROUP BY A,D,E,F
+    HAVING COUNT(DISTINCT(B,C,G)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,D,E,G
+    FROM Sample
+    GROUP BY A,D,E,G
+    HAVING COUNT(DISTINCT(B,C,F)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,D,F,G
+    FROM Sample
+    GROUP BY A,D,F,G
+    HAVING COUNT(DISTINCT(B,C,E)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,E,F,G
+    FROM Sample
+    GROUP BY A,E,F,G
+    HAVING COUNT(DISTINCT(B)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,C,D,E
+    FROM Sample
+    GROUP BY B,C,D,E
+    HAVING COUNT(DISTINCT(A)) != 1
+    );
+
+
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,C,D,F
+    FROM Sample
+    GROUP BY B,C,D,F
+    HAVING COUNT(DISTINCT(A,E,G)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,C,D,G
+    FROM Sample
+    GROUP BY B,C,D,G
+    HAVING COUNT(DISTINCT(A,E,F)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,C,E,F
+    FROM Sample
+    GROUP BY B,C,E,F
+    HAVING COUNT(DISTINCT(A,D,G)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,C,E,G
+    FROM Sample
+    GROUP BY B,C,E,G
+    HAVING COUNT(DISTINCT(A,D,F)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,C,F,G
+    FROM Sample
+    GROUP BY B,C,F,G
+    HAVING COUNT(DISTINCT(A,D,E)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,D,E,F
+    FROM Sample
+    GROUP BY B,D,E,F
+    HAVING COUNT(DISTINCT(A,C,G)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,D,E,G
+    FROM Sample
+    GROUP BY B,D,E,G
+    HAVING COUNT(DISTINCT(A,C,F)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,D,F,G
+    FROM Sample
+    GROUP BY B,D,F,G
+    HAVING COUNT(DISTINCT(A,C,E)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,E,F,G
+    FROM Sample
+    GROUP BY B,E,F,G
+    HAVING COUNT(DISTINCT(A)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT C,D,E,F
+    FROM Sample
+    GROUP BY C,D,E,F
+    HAVING COUNT(DISTINCT(G)) != 1
+    );
+
+
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT C,D,E,G
+    FROM Sample
+    GROUP BY C,D,E,G
+    HAVING COUNT(DISTINCT(F)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT C,E,F,G
+    FROM Sample
+    GROUP BY C,E,F,G
+    HAVING COUNT(DISTINCT(D)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT D,E,F,G
+    FROM Sample
+    GROUP BY D,E,F,G
+    HAVING COUNT(DISTINCT(C)) != 1
+    );
+
+
+
+
+
+
+
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,B,C,D,F
+    FROM Sample
+    GROUP BY A,B,C,D,F
+    HAVING COUNT(DISTINCT(E,G)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,B,C,D,G
+    FROM Sample
+    GROUP BY A,B,C,D,G
+    HAVING COUNT(DISTINCT(E,F)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,B,C,E,F
+    FROM Sample
+    GROUP BY A,B,C,E,F
+    HAVING COUNT(DISTINCT(D,G)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,B,C,E,G
+    FROM Sample
+    GROUP BY A,B,C,E,G
+    HAVING COUNT(DISTINCT(D,F)) != 1
+    );
+
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,B,C,F,G
+    FROM Sample
+    GROUP BY A,B,C,F,G
+    HAVING COUNT(DISTINCT(D,E)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,B,D,E,F
+    FROM Sample
+    GROUP BY A,B,D,E,F
+    HAVING COUNT(DISTINCT(C,G)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,B,D,E,G
+    FROM Sample
+    GROUP BY A,B,D,E,G
+    HAVING COUNT(DISTINCT(C,F)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,B,D,F,G
+    FROM Sample
+    GROUP BY A,B,D,F,G
+    HAVING COUNT(DISTINCT(C,E)) != 1
+    );
+
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,C,D,E,F
+    FROM Sample
+    GROUP BY A,C,D,E,F
+    HAVING COUNT(DISTINCT(B,G)) != 1
+    );
+
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,C,D,E,G
+    FROM Sample
+    GROUP BY A,C,D,E,G
+    HAVING COUNT(DISTINCT(B,F)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,C,D,F,G
+    FROM Sample
+    GROUP BY A,C,D,F,G
+    HAVING COUNT(DISTINCT(B,E)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,D,E,F,G
+    FROM Sample
+    GROUP BY A,D,E,F,G
+    HAVING COUNT(DISTINCT(B,C)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,C,D,E,F
+    FROM Sample
+    GROUP BY B,C,D,E,F
+    HAVING COUNT(DISTINCT(A,G)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,C,D,E,G
+    FROM Sample
+    GROUP BY B,C,D,E,G
+    HAVING COUNT(DISTINCT(A,F)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,C,D,F,G
+    FROM Sample
+    GROUP BY B,C,D,F,G
+    HAVING COUNT(DISTINCT(A,E)) != 1
+    );
+
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,C,E,F,G
+    FROM Sample
+    GROUP BY B,C,E,F,G
+    HAVING COUNT(DISTINCT(A,D)) != 1
+    );
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,D,E,F,G
+    FROM Sample
+    GROUP BY B,D,E,F,G
+    HAVING COUNT(DISTINCT(A,C)) != 1
+    );
+
+
+
+
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,B,C,D,E,F
+    FROM Sample
+    GROUP BY A,B,C,D,E,F
+    HAVING COUNT(DISTINCT(G)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,B,C,D,E,G
+    FROM Sample
+    GROUP BY A,B,C,D,E,G
+    HAVING COUNT(DISTINCT(F)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,B,C,D,F,G
+    FROM Sample
+    GROUP BY A,B,C,D,F,G
+    HAVING COUNT(DISTINCT(E)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,B,C,E,F,G
+    FROM Sample
+    GROUP BY A,B,C,E,F,G
+    HAVING COUNT(DISTINCT(D)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,B,D,E,F,G
+    FROM Sample
+    GROUP BY A,B,D,E,F,G
+    HAVING COUNT(DISTINCT(C)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT A,C,D,E,F,G
+    FROM Sample
+    GROUP BY A,C,D,E,F,G
+    HAVING COUNT(DISTINCT(B)) != 1
+    );
+
+SELECT *
+FROM Sample
+WHERE NOT EXISTS (
+    SELECT B,C,D,E,F,G
+    FROM Sample
+    GROUP BY B,C,D,E,F,G
+    HAVING COUNT(DISTINCT(A)) != 1
+    );
+
